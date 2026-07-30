@@ -22,7 +22,7 @@ export const profile = {
 export const about = {
   paragraphs: [
     "I am a Computer Science student passionate about web development, AI, and workflow automation. I enjoy building full-stack web applications and automating repetitive tasks using modern technologies. I continuously learn new tools and enjoy solving real-world problems through software.",
-    "Placeholder bio paragraph two. Mention your current focus, tools you love, and what you're looking for next.",
+    "I am currently focused on improving my skills in full-stack web development and AI automation by building practical projects. I enjoy working with React, Node.js, Express.js, MySQL, Tailwind CSS, Git, GitHub, and n8n to create efficient and user-friendly applications. I am looking for opportunities to gain real-world experience.",
   ],
   stats: [
     { label: "Years experience", value: "0+" },
