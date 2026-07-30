@@ -10,18 +10,18 @@ export const profile = {
     "Problem Solver",
   ],
   tagline:
-    "Short one-line tagline goes here — what you build, who you build it for, and why it matters.",
-  location: "City, Country",
-  email: "your.email@example.com",
+    "Computer Science Student | Web Developer | AI Automation Enthusiast",
+  location: "Karachi, Pakistan",
+  email: "imzarajamal@gmail.com",
   phone: "+00 000 000 0000",
   resumeUrl: "#",
-  github: "https://github.com/your-username",
+  github: "https://github.com/imzaraahmed",
   linkedin: "https://linkedin.com/in/your-profile",
 };
 
 export const about = {
   paragraphs: [
-    "Placeholder bio paragraph one. Describe your background, what you specialize in, and the kind of problems you enjoy solving.",
+    "I am a Computer Science student passionate about web development, AI, and workflow automation. I enjoy building full-stack web applications and automating repetitive tasks using modern technologies. I continuously learn new tools and enjoy solving real-world problems through software.",
     "Placeholder bio paragraph two. Mention your current focus, tools you love, and what you're looking for next.",
   ],
   stats: [
