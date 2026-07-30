@@ -36,33 +36,33 @@ export const skillGroups = [
   {
     title: "Frontend",
     icon: "code" as const,
-    items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Skill placeholder"],
+    items: ["React", "JavaScript", "CSS3", "Bootstrap","Next.js", "Tailwind CSS "],
   },
   {
     title: "Backend",
     icon: "server" as const,
-    items: ["Node.js", "Python", "PostgreSQL", "REST / GraphQL", "Skill placeholder"],
+    items: ["Node.js", "Express.js", "JWT Authentication", "REST APIs","My SQL" ,"Python"],
   },
   {
     title: "AI & Automation",
     icon: "sparkles" as const,
-    items: ["LLM APIs", "Prompt engineering", "n8n / Zapier", "RAG pipelines", "Skill placeholder"],
+    items: ["Google Gemini API", "Prompt engineering", "n8n", "AI Workflows", "Workflow Automation","API Integration"],
   },
   {
     title: "Tools & Cloud",
     icon: "cloud" as const,
-    items: ["Git & GitHub", "Docker", "CI/CD", "AWS / Vercel", "Skill placeholder"],
+    items: ["Git & GitHub", "VS Code", "Postman", "Vercel", "Netlify"],
   },
 ];
 
 export const featuredProjects = [
   {
-    title: "Project Title One",
+    title: "Job Application Tracker",
     description:
-      "Placeholder description of the project — the problem, your approach, and the outcome in one or two sentences.",
-    tags: ["React", "TypeScript", "Tailwind"],
+      "A full-stack web application that helps users manage job applications, upload resumes, track application status, and receive reminders. Built as my final year project using modern web technologies..",
+    tags: ["React", "Node.js", "Express.js","MySQL","Tailwind CSS"],
     demo: "#",
-    repo: "#",
+    repo: "https://github.com/imzaraahmed/VU-final-project-job-application-tracker-26.git",
   },
   {
     title: "Project Title Two",

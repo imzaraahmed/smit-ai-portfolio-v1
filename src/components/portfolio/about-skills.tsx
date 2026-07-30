@@ -48,7 +48,7 @@ export function Skills() {
       id="skills"
       eyebrow="Skills"
       title="Tools I work with"
-      description="Placeholder skill groups — swap in the stack you actually use."
+      description="Technologies and tools I use to build full-stack web applications, AI-powered workflows, and modern software solutions.."
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {skillGroups.map((group, i) => {
