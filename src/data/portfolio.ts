@@ -26,8 +26,8 @@ export const about = {
   ],
   stats: [
     { label: "Years experience", value: "0+" },
-    { label: "Projects shipped", value: "00" },
-    { label: "Automations built", value: "00" },
+    { label: "Projects shipped", value: "03" },
+    { label: "Automations built", value: "03" },
     { label: "Certifications", value: "00" },
   ],
 };
@@ -108,24 +108,24 @@ export const aiProjects = [
 
 export const education = [
   {
-    degree: "Degree / Programme Name",
-    school: "Institution Name",
-    period: "20XX — 20XX",
-    detail: "Placeholder detail — specialization, grade, thesis, or notable coursework.",
+    degree: "Bachelor of Science in Computer Science (BSCS)",
+    school: "Virtual University of Pakistan",
+    period: "2022 — 2026",
+    detail: "Currently in the final semester of my BSCS degree. Gained practical experience in web development, database systems, software engineering, artificial intelligence, and full-stack application development. Built academic projects using React, Node.js, Express.js, MySQL, and modern web technologies..",
   },
   {
-    degree: "Degree / Programme Name",
-    school: "Institution Name",
+    degree: "Bachelor in Commerce (B.com)",
+    school: "Premier Govt College Karachi",
     period: "20XX — 20XX",
-    detail: "Placeholder detail — specialization, grade, thesis, or notable coursework.",
+    detail: "Studied core business subjects including Accounting, Business Mathematics, Economics, Business Communication, Finance, Marketing, and Management. Developed analytical, financial, and problem-solving skills along with a strong understanding of business operations and commercial practices.",
   },
 ];
 
 export const certifications = [
-  { name: "Certification Name", issuer: "Issuing Organization", year: "20XX", url: "#" },
-  { name: "Certification Name", issuer: "Issuing Organization", year: "20XX", url: "#" },
-  { name: "Certification Name", issuer: "Issuing Organization", year: "20XX", url: "#" },
-  { name: "Certification Name", issuer: "Issuing Organization", year: "20XX", url: "#" },
+  { name: "Modern Web Application Development (Batch-17)", issuer: "Saylani Mass Training Programme", year: "2026", url: "#" },
+  { name: "ARTIFICIAL INTELLIGENCE USING PYTHON", issuer: "DigiSkills.PK", year: "2026", url: "#" },
+  { name: "UI/UX &WEBFLOW ", issuer: "DigiSkills.PK", year: "2026", url: "#" },
+  { name: "Cloud Computing", issuer: "DigiSkills.PK", year: "20XX", url: "#" },
 ];
 
 export const navLinks = [
