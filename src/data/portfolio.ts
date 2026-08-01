@@ -1,3 +1,6 @@
+import aiStudentAssistant from "@/assets/ai-student-assistant.png";
+import eda from "@/assets/eda.png";
+import jat from "@/assets/jat.png";
 // Placeholder content — replace these values with your real information.
 export const profile = {
   name: "Zara Ahmed",
@@ -13,10 +16,10 @@ export const profile = {
     "Computer Science Student | Web Developer | AI Automation Enthusiast",
   location: "Karachi, Pakistan",
   email: "imzarajamal@gmail.com",
-  phone: "+00 000 000 0000",
+  phone: "+92 346 266 7417",
   resumeUrl: "#",
   github: "https://github.com/imzaraahmed",
-  linkedin: "https://linkedin.com/in/your-profile",
+  linkedin: "https://www.linkedin.com/in/imzaraahmed/",
 };
 
 export const about = {
@@ -61,48 +64,51 @@ export const featuredProjects = [
     description:
       "A full-stack web application that helps users manage job applications, upload resumes, track application status, and receive reminders. Built as my final year project using modern web technologies..",
     tags: ["React", "Node.js", "Express.js","MySQL","Tailwind CSS"],
+    image: jat,
     demo: "#",
     repo: "https://github.com/imzaraahmed/VU-final-project-job-application-tracker-26.git",
   },
   {
-    title: "Project Title Two",
+    title: "AI Student Assistant",
     description:
-      "Placeholder description of the project — the problem, your approach, and the outcome in one or two sentences.",
-    tags: ["Node.js", "PostgreSQL", "API"],
+      "An AI-powered student learning assistant built with n8n that helps students ask academic questions, maintain conversation context, and receive study notes by email..",
+    tags: ["n8n","Chat Trigger ", "AI Agent", "Google Gemini API","Memory"],
+    image: aiStudentAssistant,
     demo: "#",
-    repo: "#",
+    repo: "https://github.com/imzaraahmed/smit-student-registration-n8n-project",
   },
   {
-    title: "Project Title Three",
+    title: "Exploratory Data Analysis (EDA)",
     description:
-      "Placeholder description of the project — the problem, your approach, and the outcome in one or two sentences.",
-    tags: ["Next.js", "Stripe", "Cloud"],
+      "Performed exploratory data analysis on a real-world dataset by cleaning missing values, transforming data, and creating visualizations to uncover trends, patterns, and insights. The project demonstrates data preprocessing and analytical skills using Python..",
+    tags: ["Python", "Pandas", "NumPy","Matplotlib","Seaborn","Google Colab"],
+    image: eda,
     demo: "#",
-    repo: "#",
+    repo: "https://github.com/imzaraahmed/EDA-Ecommerce-Customer-Behavior",
   },
 ];
 
 export const aiProjects = [
   {
-    title: "AI Automation Title One",
+    title: "AI Student Assistant with Webhook",
     description:
-      "Placeholder — what the workflow automates, which tools it connects, and the time or cost it saves.",
-    impact: "Saves 00 hrs / month",
+      "An AI-powered student learning assistant built with n8n that helps students ask academic questions, maintain conversation context, and receive study notes by email.",
+    impact: "30 hrs/month",
     tags: ["LLM", "n8n", "Webhooks"],
   },
   {
-    title: "AI Automation Title Two",
+    title: "AI Student Assistant with Chat Trigger",
     description:
-      "Placeholder — what the workflow automates, which tools it connects, and the time or cost it saves.",
-    impact: "00% faster processing",
-    tags: ["RAG", "Vector DB", "Python"],
+      "An AI-powered student learning assistant built with n8n that helps students ask academic questions, maintain conversation context, and receive study notes by email.",
+    impact: "20 hrs/month ",
+    tags: ["LLM", "n8n", "Chat Trigger"],
   },
   {
-    title: "AI Automation Title Three",
+    title: "AI-Agent Student registraion ",
     description:
-      "Placeholder — what the workflow automates, which tools it connects, and the time or cost it saves.",
-    impact: "00 tasks automated",
-    tags: ["Agents", "OpenAI", "Slack"],
+      "The AI-Agent Student Registration system was developed using n8n automation to streamline the student enrollment process. The AI agent collects student information, validates the provided details, responds to admission-related queries.",
+    impact: "20 hrs/month",
+    tags: ["AI-Agent", "LLM", "Google Sheet"],
   },
 ];
 
