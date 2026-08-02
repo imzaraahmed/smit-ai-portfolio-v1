@@ -1,6 +1,7 @@
 import aiStudentAssistant from "@/assets/ai-student-assistant.png";
 import eda from "@/assets/eda.png";
 import jat from "@/assets/jat.png";
+import myresume from "@/assets/zara-ahmed-resume.pdf";
 // Placeholder content — replace these values with your real information.
 export const profile = {
   name: "Zara Ahmed",
@@ -17,7 +18,7 @@ export const profile = {
   location: "Karachi, Pakistan",
   email: "imzarajamal@gmail.com",
   phone: "+92 346 266 7417",
-  resumeUrl: "#",
+  resumeUrl: myresume,
   github: "https://github.com/imzaraahmed",
   linkedin: "https://www.linkedin.com/in/imzaraahmed/",
 };
